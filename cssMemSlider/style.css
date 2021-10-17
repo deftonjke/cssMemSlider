@@ -120,3 +120,15 @@ body {
 #slide4:checked ~ .controls > .dots > .label > .dot.dot_4 {
 	background-color: black;
 }
+
+@media screen and (max-width: 420px) {
+	.container {
+		height: 50vh;
+		margin: 0 auto;
+		position: relative;
+		width: 90vw;
+	}
+	.controls {
+    flex-direction: column-reverse;
+	}
+}
